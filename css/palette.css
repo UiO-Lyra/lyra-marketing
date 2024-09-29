@@ -1,9 +1,11 @@
 /* CSS HEX */
+:root {
 --charcoal: #344550ff;
 --gunmetal: #233543ff;
 --gunmetal-2: #1b2d3cff;
 --rich-black: #00111fff;
 --paynes-gray: #5f717aff;
+}
 
 /* CSS HSL */
 --charcoal: hsla(204, 21%, 26%, 1);
