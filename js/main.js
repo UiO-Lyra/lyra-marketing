@@ -10,13 +10,11 @@ class Contact {
 	static contactsDiv = document.getElementById('contacts');
 
 	constructor(image="../images/lyra_logo_cropped.png", name="John Doe", role="CEO", 
-							txt=loremIpsum, email="abc@gmail.com", tlf="123456789") {
+							email="abc@gmail.com") {
 		this.image = image;
 	  this.name = name;
 		this.role = role;
-		this.txt = txt;
 		this.email = email;
-		this.tlf = tlf;
 		this.id = Contact.id;
 		Contact.id++;
 	}
@@ -50,22 +48,22 @@ class Contact {
 
 		const identifierDiv = this.makeIdentifierDiv();
 
-		const txt = document.createElement("p");
-		txt.className = "profileTxt";
-		txt.textContent = this.txt;
+		//const txt = document.createElement("p");
+		//txt.className = "profileTxt";
+		//txt.textContent = this.txt;
 
 		const email = document.createElement("p");
 		email.className = "profileEmail";
 		email.textContent = "@: " + this.email;
 
-		const tlf = document.createElement("p");
-		tlf.className = "profileTlf";
-		tlf.textContent = "tlf: " + this.tlf;
+		//const tlf = document.createElement("p");
+		//tlf.className = "profileTlf";
+		//tlf.textContent = "tlf: " + this.tlf;
 
 		card.appendChild(identifierDiv);
-		card.appendChild(txt);
+		//card.appendChild(txt);
 		card.appendChild(email);
-		card.appendChild(tlf);
+		//card.appendChild(tlf);
 		return card;
 	}
 
@@ -74,8 +72,24 @@ class Contact {
 		Contact.contactsDiv.appendChild(card);
 	}
 }
-
-
+/*
+function fetchContactsJSON() {
+	const contacts = '../json/contacts.json';
+	fetch(contacts)
+		.then((res) => {
+			if (!res.ok) {
+				throw new Error(`HTTP error! Status: ${res.status}`);
+			}
+			return res.json();
+		})
+		.then((data) => {
+			console.log(data)
+		})
+		.catch((error) =>
+			console.error("Unable to fetch data:", error));
+}
+fetchContactsJSON();
+*/
 let c = new Contact();
 c.addCard();
 c.addCard();
