@@ -34,7 +34,6 @@ hr.socialDivider {
     margin: 20px 0; /* Gir luft mellom elementene */
 }
 
-
 .header{
     position: relative;
     overflow: hidden;
@@ -219,3 +218,5 @@ hr.socialDivider {
 .shortcuts a:hover {
     text-decoration: underline;
 }
+
+
