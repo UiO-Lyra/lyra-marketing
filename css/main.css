@@ -35,8 +35,32 @@ hr.socialDivider {
 }
 
 .footerContainer{
-    width: 100%;
-    padding: 70px 0px 20px;
+    display: flex; /* Bruker flexbox for layout */
+    justify-content: space-between; /* Fordeler plass mellom seksjonene */
+    align-items: flex-start; /* Justerer elementene til toppen */
+    padding: 20px; /* Polstring for å gi litt plass */
+}
+
+
+.adress {
+    text-align: left; /* Juster teksten til venstre */
+    color: white; /* Sørg for at teksten er hvit */
+    margin-top: 10px; /* Legg til litt marg over adressen */
+    padding-left: 15px;
+}
+
+.adress h3{
+    text-align: left; /* Juster teksten til venstre */
+    color: white; /* Sørg for at teksten er hvit */
+    margin-top: 10px; /* Legg til litt marg over adressen */
+    padding-left: 15px;
+}
+
+.adress p{
+    text-align: left; /* Juster teksten til venstre */
+    color: white; /* Sørg for at teksten er hvit */
+    margin-top: 10px; /* Legg til litt marg over adressen */
+    padding-left: 15px;
 }
 
 .socialIcons{
@@ -89,6 +113,39 @@ hr.socialDivider {
 
 .footerNav ul li a:hover{
     opacity: 1;
+}
+
+.externLinks {
+    text-align: right; /* Juster teksten til venstre */
+    color: white; /* Sørg for at teksten er hvit */
+    margin-top: 10px; /* Legg til litt marg over adressen */
+    padding-right: 60px;
+}
+
+.externLinks h3{
+    margin-bottom: 10px; /* Avstand under overskriften */
+    width: 100%; 
+}
+
+.externLinks #externalLinksList {  /* Target the UL with ID */
+    text-align: right;
+    list-style-type: none; /* Fjerner standard punkter */
+    padding: 0; /* Fjerner standard padding */
+    margin: 0; /* Fjerner standard margin */
+  }
+
+.externLinks li {
+    margin: 5px 0; /* Tilføjer lidt afstand mellem listeelementerne */
+}
+
+.externLinks a {
+    text-decoration: none; /* Fjerner understregning fra links */
+    color: white; /* Sætter farven på links */
+    transition: color 0.3s; /* Giver en overgangseffekt */
+}
+
+.externLinks a:hover {
+    color: #1b2d3cff; /* Skifter farven når man hover */
 }
 
 .footerBottom{
