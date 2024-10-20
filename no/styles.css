@@ -1,0 +1,224 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebe7f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers content vertically */
+    min-height: 100vh; /* Full height for mobile view */
+    padding: 0;
+    font-size: 16px; /* Base font size */
+}
+
+main {
+    width: 50%; /* Half the width of the screen */
+    max-width: 400px; /* Maximum width for larger screens */
+    background-color: white; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    display: flex;
+    flex-direction: column; /* Arrange elements in a column */
+    position: relative;
+    min-height: 100vh; /* Ensure full height of the viewport */
+}
+
+/* Header definition */
+.header {
+    width: calc(100% - 30px); /* 15px reduction from left and right */
+    background-color: #2E4A76; /* Blue background */
+    height: 195px; /* Height of the header */
+    display: flex;
+    justify-content: space-between; /* Space between elements */
+    align-items: flex-end; /* Align items to the bottom */
+    padding: 10px; /* Keep padding as before for internal content */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+    margin: 15px auto; /* Center header with 15px margin on all sides */
+    position: relative; /* Set position relative for absolute children */
+}
+
+/* Style for Header Title */
+.header-title {
+    position: absolute; /* Allow positioning */
+    bottom: 30px; /* Distance from the bottom */
+    left: 30px; /* Distance from the left */
+    font-size: 40px; /* Font size */
+    color: black; /* Change text color to black */
+}
+
+/* Internal header elements */
+.header-icon {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute; /* Enable positioning */
+    bottom: 150px; /* Adjust this value to move it higher */
+    left: 10px; /* Adjust this value for horizontal alignment */
+}
+
+.header-bar {
+    position: absolute; /* Enable positioning */
+    bottom: 150px; /* 20px from the bottom */
+    left: 100px; /* 10px from the left */
+    background-color: #ddd;
+    height: 20px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.header-circle {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute; /* Ensure it's positioned relative to the parent */
+    bottom: 150px; /* Adjust this value to move it higher */
+    left: 325px; /* Keep this as it is or adjust for horizontal alignment */
+}
+
+.info-section {
+    text-align: left;
+    padding: 20px;
+}
+
+.info-section h2 {
+    font-size: 32px;
+    color: black;
+    margin-top: 10px;
+}
+
+.info-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically centered */
+    margin: 10px 0; /* Margin for the container */
+}
+
+.info-text {
+    flex: 1; /* Allow this to take available space */
+    margin-right: 10px; /* Space between text and content box */
+    text-align: center; /* Center the cross mark */
+}
+
+.red-cross {
+    color: red; /* Color for the red cross */
+    font-size: 48px; /* Increased size for the red cross */
+}
+
+.content-box {
+    background-color: #e0e0e0;
+    width: 50%; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black; /* Text color */
+    padding: 5px; /* Padding for internal space */
+}
+
+/* Large text section with red cross */
+.large-text {
+    font-size: 20px;
+    margin: 20px 0;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the cross mark horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* Footer styles */
+.footer {
+    width: calc(100% - 30px); /* 15px reduction from left and right */
+    background-color: #2E4A76; /* Dark blue background */
+    height: 110px; /* Height of the footer */
+    display: flex;
+    justify-content: center; /* Center contents horizontally */
+    align-items: center; /* Center vertically */
+    padding: 10px; /* Internal padding */
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+    margin: 15px auto; /* Center footer with 15px margin on all sides */
+    margin-top: auto; /* Push footer to the bottom of the main content */
+    border-bottom: 8px solid black; /* Add a black bottom border */
+}
+
+.footer-container {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Full width of the footer */
+    position: relative; /* Relative positioning for the vertical lines */
+}
+
+/* Style for each footer section */
+.footer-section {
+    display: flex; /* Use flexbox for each section */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    flex: 1; /* Allow each section to take equal width */
+    position: relative; /* Allow absolute positioning of vertical line */
+}
+
+.footer-btn {
+    background-color: #666; /* Dark grey background */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full width of the section */
+}
+
+.footer-btn:hover {
+    background-color: #555; /* Darker on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.footer-btn:focus {
+    outline: 2px solid #fff; /* White outline for focus state */
+    outline-offset: 2px; /* Offset for better visibility */
+}
+
+/* Vertical line style */
+.vertical-line {
+    width: 2px; /* Width of the vertical line */
+    height: 70%; /* Increased height to be more visible */
+    background-color: white; /* Color of the vertical line */
+}
+
+/* Pagination dots styling */
+.pagination-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center dots horizontally */
+}
+
+.pagination-dots {
+    display: flex; /* Flexbox for dots */
+    gap: 5px; /* Space between dots */
+}
+
+.dot {
+    background-color: #bbb; /* Dot color */
+    width: 10px; /* Dot width */
+    height: 10px; /* Dot height */
+    border-radius: 50%; /* Circular shape */
+}
+
+/* Media query for small screens to ensure proper scaling */
+@media (max-width: 600px) {
+    main {
+        width: 90%; /* Full width on small screens */
+    }
+
+    .header-title {
+        font-size: 32px; /* Smaller font size for small screens */
+    }
+
+    .red-cross {
+        font-size: 36px; /* Adjust red cross size for small screens */
+    }
+}
