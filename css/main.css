@@ -47,6 +47,7 @@ hr.socialDivider {
     min-height: 600px;
     max-height: 700px;
     width: 100%;
+    width: 100%;
     color: ghostwhite;
 
     background-image: url('../images/sky.jpg');
@@ -151,6 +152,7 @@ hr.socialDivider {
 }
 .info h1{
     font-size: 4rem;
+    text-align: left;
     text-align: left;
 }
 .sides{
