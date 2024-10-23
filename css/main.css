@@ -39,20 +39,27 @@ p {
     height: 30vw;
     min-height: 600px;
     max-height: 700px;
-    min-width: 200px;
+    width: 100%;
     color: ghostwhite;
 }
 .info{
     width: 100%;
     padding: 15% 10% 0 10%;
-    text-align: center;
+    text-align: left;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 .info h1{
     font-size: 4rem;
+    text-align: left;
 }
 .sides{
     flex: 0 0 auto;
     width: 50%;
     padding: 20px;
+}
+.sides .menu{
+    top: 0%;
+    left: 0%;
+    width: 40px;
+    height: 40px;
 }
