@@ -57,9 +57,48 @@ p {
     width: 50%;
     padding: 20px;
 }
-.sides .menu{
+.sides .icon{
+    position: absolute;
     top: 0%;
     left: 0%;
     width: 40px;
     height: 40px;
+    margin-left: 15px;
+    padding: 20px;
+}
+.language-selection {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+    font-size: 1rem;
+    padding: 22px;
+    color: ghostwhite;
+}
+.language-selection a {
+    color: ghostwhite;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.language-selection a:hover {
+    text-decoration: underline;
+}
+.language-selection span {
+    margin: 0 5px;
+    color: ghostwhite;
+}
+.shortcuts {
+    position: absolute;
+    top: 20px; 
+    right: 200px; 
+    font-size: 1.3rem; 
+    padding: 20px;
+    color: ghostwhite;
+}
+.shortcuts a {
+    color: ghostwhite;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.shortcuts a:hover {
+    text-decoration: underline;
 }
