@@ -1,0 +1,58 @@
+#contacts {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	overflow-x: auto;
+}
+#contacts > * {
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.profileCard {
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	flex-shrink: 0;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--charcoal);
+}
+
+.profileIdentifiers {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.profileIdentifiers > * {
+	margin-bottom: -20px;
+}
+
+.profileImage {
+	object-fit: cover;
+	width: 230px;
+  height: 230px;
+}
+
+.profileName {
+}
+
+.profileRole {
+}
+
+.profileTxt {
+	text-align: justify;
+	overflow-y: auto;
+	margin-bottom: 0px;
+}
+
+.profileEmail {
+	margin-bottom: 0px;
+}
+
+.profileTlf {
+	margin-bottom: 0px;
+}

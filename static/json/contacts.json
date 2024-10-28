@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Asad Jonas Munir Arshad",
+		"image": "../images/lyra_logo_cropped.png",
+		"role": "PM",
+		"email": "ajarshad@uio.no"
+	},
+	{
+		"name": "Brage Sørensen",
+		"image": "../images/lyra_logo_cropped.png",
+		"role": "SE",
+		"email": "brageso@uio.no"
+	},
+	{
+		"name": "Mikk Silver Kelu",
+		"image": "../images/lyra_logo_cropped.png",
+		"role": "ADCS",
+		"email": "mikksk@uio.no"
+	},
+	{
+		"name": "Halvor Klepsvik",
+		"image": "../images/lyra_logo_cropped.png",
+		"role": "COMS",
+		"email": "halvor.klepsvik@fys.uio.no"
+	},
+	{
+		"name": "Mustafa Najjar",
+		"image": "../images/lyra_logo_cropped.png",
+		"role": "EPS",
+		"email": "mustafa-najjar015@gmail.com"
+	},
+	{
+		"name": "Vytenis Orlauskis",
+		"image": "../images/lyra_logo_cropped.png",
+		"role": "Config",
+		"email": "vyteniso@uio.no"
+	},
+	{
+		"name": "Yawar Seraj",
+		"image": "../images/lyra_logo_cropped.png",
+		"role": "S&M",
+		"email": "yawars@student.matnat.uio.no"
+	}
+]
