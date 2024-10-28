@@ -66,6 +66,12 @@ p {
     margin-left: 15px;
     padding: 20px;
 }
+.menu{
+    background: none; 
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+}
 .language-selection {
     position: absolute;
     top: 20px;
