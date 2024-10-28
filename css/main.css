@@ -41,12 +41,18 @@ p {
     max-height: 700px;
     width: 100%;
     color: ghostwhite;
+
+    background-image: url('../images/sky.jpg');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 .info{
     width: 100%;
     padding: 15% 10% 0 10%;
     text-align: left;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
 .info h1{
     font-size: 4rem;
@@ -79,6 +85,7 @@ p {
     font-size: 1rem;
     padding: 22px;
     color: ghostwhite;
+    z-index: 2;
 }
 .language-selection a {
     color: ghostwhite;
@@ -99,6 +106,7 @@ p {
     font-size: 1.3rem; 
     padding: 20px;
     color: ghostwhite;
+    z-index: 2;
 }
 .shortcuts a {
     color: ghostwhite;
