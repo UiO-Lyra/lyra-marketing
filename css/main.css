@@ -54,6 +54,11 @@ hr.socialDivider {
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat; 
+
+    background-image: url('../images/sky.jpg');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 .info{
     width: 100%;
@@ -203,6 +208,7 @@ hr.socialDivider {
     font-size: 1.3rem; 
     padding: 20px;
     color: ghostwhite;
+    z-index: 2;
     z-index: 2;
 }
 .shortcuts a {
