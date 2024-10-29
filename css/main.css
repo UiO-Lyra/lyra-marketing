@@ -27,13 +27,6 @@ p {
     margin: 10px 0;
 }
 
-hr.socialDivider {
-    border: none;
-    border-top: 1px solid white; /* Hvit strek */
-    width: 100%; /* Fyller hele bredden */
-    margin: 20px 0; /* Gir luft mellom elementene */
-}
-
 .header{
     position: relative;
     overflow: hidden;
@@ -59,6 +52,7 @@ hr.socialDivider {
     background-position: center; 
     background-repeat: no-repeat; 
 }
+
 .info{
     width: 100%;
     padding: 15% 10% 0 10%;
@@ -218,5 +212,3 @@ hr.socialDivider {
 .shortcuts a:hover {
     text-decoration: underline;
 }
-
-
