@@ -27,45 +27,45 @@ p {
     margin: 10px 0;
 }
 
-hr.socialDivider {
-    border: none;
-    border-top: 1px solid white; /* Hvit strek */
-    width: 100%; /* Fyller hele bredden */
-    margin: 20px 0; /* Gir luft mellom elementene */
-}
-
 .footerContainer{
-    display: flex; /* Bruker flexbox for layout */
-    justify-content: space-between; /* Fordeler plass mellom seksjonene */
-    align-items: flex-start; /* Justerer elementene til toppen */
-    padding: 20px; /* Polstring for å gi litt plass */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0px;
 }
-
 
 .adress {
-    text-align: left; /* Juster teksten til venstre */
-    color: white; /* Sørg for at teksten er hvit */
-    margin-top: 10px; /* Legg til litt marg over adressen */
+    text-align: left; 
+    color: white; 
+    margin-top: 10px; 
     padding-left: 15px;
 }
 
 .adress h3{
-    text-align: left; /* Juster teksten til venstre */
-    color: white; /* Sørg for at teksten er hvit */
-    margin-top: 10px; /* Legg til litt marg over adressen */
+    text-align: left; 
+    color: white; 
+    margin-top: 10px;
     padding-left: 15px;
 }
 
 .adress p{
-    text-align: left; /* Juster teksten til venstre */
-    color: white; /* Sørg for at teksten er hvit */
-    margin-top: 10px; /* Legg til litt marg over adressen */
+    text-align: left; 
+    color: white; 
+    margin-top: 10px;
     padding-left: 15px;
+}
+
+.socialSection {
+    text-align: center; 
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%);
 }
 
 .socialIcons{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .socialIcons a{
@@ -116,36 +116,40 @@ hr.socialDivider {
 }
 
 .externLinks {
-    text-align: right; /* Juster teksten til venstre */
-    color: white; /* Sørg for at teksten er hvit */
-    margin-top: 10px; /* Legg til litt marg over adressen */
-    padding-right: 60px;
+    text-align: right; 
+    color: white; 
+    margin-top: 10px; 
+    padding-right: 60px; 
+    flex: 1; 
 }
 
-.externLinks h3{
-    margin-bottom: 10px; /* Avstand under overskriften */
+.externLinks h3 {
+    margin-bottom: 10px; 
     width: 100%; 
+    text-align: right;
+    margin-left: -60px; 
 }
 
-.externLinks #externalLinksList {  /* Target the UL with ID */
-    text-align: right;
-    list-style-type: none; /* Fjerner standard punkter */
-    padding: 0; /* Fjerner standard padding */
-    margin: 0; /* Fjerner standard margin */
-  }
+.externLinks #externalLinksList {  
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
 
 .externLinks li {
-    margin: 5px 0; /* Tilføjer lidt afstand mellem listeelementerne */
+    margin: 7px 0; 
+    text-align: left; 
+    margin-left: 1180px; 
 }
 
 .externLinks a {
-    text-decoration: none; /* Fjerner understregning fra links */
-    color: white; /* Sætter farven på links */
-    transition: color 0.3s; /* Giver en overgangseffekt */
+    text-decoration: none; 
+    color: white; 
+    transition: color 0.3s; 
 }
 
 .externLinks a:hover {
-    color: #1b2d3cff; /* Skifter farven når man hover */
+    color: #1b2d3cff; 
 }
 
 .footerBottom{
