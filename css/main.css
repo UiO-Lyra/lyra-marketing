@@ -30,8 +30,8 @@ p {
 .footerContainer{
     display: flex; 
     justify-content: space-between; 
-    align-items: center;
-    padding: 0px;
+    align-items: start;
+    padding: 20px 60px;
 }
 
 .adress {
@@ -118,19 +118,17 @@ p {
 .externLinks {
     text-align: right; 
     color: white; 
-    margin-top: 10px; 
-    padding-right: 60px; 
+    margin-top: 0; 
+    padding-right: 0; 
     flex: 1; 
 }
 
 .externLinks h3 {
     margin-bottom: 10px; 
-    width: 100%; 
-    text-align: right;
-    margin-left: -60px; 
+   text-align: right;
 }
 
-.externLinks #externalLinksList {  
+#externalLinksList {  
     list-style-type: none; 
     padding: 0; 
     margin: 0; 
@@ -138,8 +136,7 @@ p {
 
 .externLinks li {
     margin: 7px 0; 
-    text-align: left; 
-    margin-left: 1180px; 
+    text-align: right; 
 }
 
 .externLinks a {
