@@ -167,25 +167,22 @@ p {
     margin-left: 15px;
     padding: 20px;
 }
-.menu{
-    background: none; 
-    border: none; 
+
+#externalLinksList {  
+    list-style-type: none; 
     padding: 0; 
     cursor: pointer; 
 }
-.language-selection {
-    position: absolute;
-    top: 20px;
-    right: 20px; 
-    font-size: 1rem;
-    padding: 22px;
-    color: ghostwhite;
-    z-index: 2;
+
+.externLinks li {
+    margin: 7px 0; 
+    text-align: right; 
 }
-.language-selection a {
-    color: ghostwhite;
-    text-decoration: none;
-    margin: 0 5px;
+
+.externLinks a {
+    text-decoration: none; 
+    color: white; 
+    transition: color 0.3s; 
 }
 .language-selection a:hover {
     text-decoration: underline;
