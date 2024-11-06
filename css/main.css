@@ -1,9 +1,10 @@
+@import url("footer.css");
 
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
     height: auto;
     margin: 0;
     font-family: Arial, sans-serif;
@@ -40,13 +41,20 @@ p {
     min-height: 600px;
     max-height: 700px;
     width: 100%;
+    width: 100%;
     color: ghostwhite;
 
     background-image: url('../images/sky.jpg');
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat; 
+
+    background-image: url('../images/sky.jpg');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
+
 .info{
     width: 100%;
     padding: 15% 10% 0 10%;
@@ -106,6 +114,93 @@ p {
     font-size: 1.3rem; 
     padding: 20px;
     color: ghostwhite;
+    z-index: 2;
+}
+.shortcuts a {
+    color: ghostwhite;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.shortcuts a:hover {
+    text-decoration: underline;
+}
+.header{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 30vw;
+    min-height: 600px;
+    max-height: 700px;
+    width: 100%;
+    color: ghostwhite;
+
+    background-image: url('../images/sky.jpg');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.info{
+    width: 100%;
+    padding: 15% 10% 0 10%;
+    text-align: left;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+.info h1{
+    font-size: 4rem;
+    text-align: left;
+    text-align: left;
+}
+.sides{
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 20px;
+}
+.sides .icon{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+#externalLinksList {  
+    list-style-type: none; 
+    padding: 0; 
+    cursor: pointer; 
+}
+
+.externLinks li {
+    margin: 7px 0; 
+    text-align: right; 
+}
+
+.externLinks a {
+    text-decoration: none; 
+    color: white; 
+    transition: color 0.3s; 
+}
+.language-selection a:hover {
+    text-decoration: underline;
+}
+.language-selection span {
+    margin: 0 5px;
+    color: ghostwhite;
+}
+.shortcuts {
+    position: absolute;
+    top: 20px; 
+    right: 200px; 
+    font-size: 1.3rem; 
+    padding: 20px;
+    color: ghostwhite;
+    z-index: 2;
     z-index: 2;
 }
 .shortcuts a {
