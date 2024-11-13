@@ -1,11 +1,12 @@
 .container {
-    width: 900px; /* Increased width */
+    width: 90%; /* Increased width */
     padding: 40px; /* Keep the padding */
     background-color: #F1F0EA;
     border: 1px solid #ccc;
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
     gap: 20px; /* Space between sections */
     min-height: 600px; /* Maintain minimum height */
 }
@@ -101,8 +102,8 @@
 }*/
 
 .slideshow-container {
-    max-width: 600px; 
-    height: 400px;  
+    max-width: 600px;
+    height: 400px;
     position: relative;
     margin: auto;
     overflow: hidden;
@@ -115,7 +116,7 @@
     object-fit: cover;
     border-radius: 10px;
 }
-
+/*
 .fade {
     animation: fadeEffect 3s ease-in-out infinite;
 }
@@ -125,7 +126,7 @@
     20% { opacity: 1; }
     80% { opacity: 1; }
     100% { opacity: 0; }
-}
+}*/
 
 .dot-container {
     text-align: center;
