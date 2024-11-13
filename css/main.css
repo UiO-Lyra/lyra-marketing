@@ -1,4 +1,5 @@
 @import url("footer.css");
+@import url("body.css");
 
 body {
     display: flex;
@@ -124,6 +125,7 @@ p {
 .shortcuts a:hover {
     text-decoration: underline;
 }
+
 .header{
     position: relative;
     overflow: hidden;
@@ -210,4 +212,97 @@ p {
 }
 .shortcuts a:hover {
     text-decoration: underline;
+}
+
+.container {
+    width: 900px; /* Increased width */
+    padding: 40px; /* Keep the padding */
+    background-color: #F1F0EA;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between sections */
+    min-height: 600px; /* Maintain minimum height */
+}
+
+.top-section {
+    display: flex;
+    gap: 20px;
+    padding: 20px; /* Added padding for more vertical space */
+}
+
+.left-section {
+    flex: 1;
+    text-align: left;
+}
+
+.info-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(29, 26, 76);
+    margin-bottom: 50px;
+}
+
+.text-below {
+    font-size: 14px;
+    margin-left: 60px;
+    color: #333;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-section img {
+    width: 250px;
+    height: 150px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.center-text {
+    flex: 1;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    color: #333;
+    text-align: center;
+}
+
+/* Bottom section styling */
+.bottom-section {
+    display: flex;
+    gap: 20px; /* Gap between image and text */
+    padding: 20px; /* Added padding for more vertical space */
+}
+
+.bottom-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-left img {
+    width: 250px;
+    height: 150px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.bottom-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.bottom-right p {
+    font-size: 14px;
+    margin-right: 60px;
+    color: #333;
 }
