@@ -212,7 +212,8 @@ p {
 }
 .shortcuts a:hover {
     text-decoration: underline;
-=======
+}
+
 .container {
     width: 900px; /* Increased width */
     padding: 40px; /* Keep the padding */
@@ -264,8 +265,10 @@ p {
 }
 
 .center-text {
+    flex: 1;
     font-size: 20px;
     font-weight: bold;
+    width: 100px;
     color: #333;
     text-align: center;
 }

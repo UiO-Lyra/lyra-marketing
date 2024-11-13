@@ -13,13 +13,11 @@ function showSlides() {
     updateDots();
 
     slideIndex = (slideIndex + 1) % slideLength;
-    slideTimeout = setTimeout(showSlides, 2000);
+    slideTimeout = setTimeout(showSlides, 8000);
 }
 
 function updateDots() {
-    for (let i = 0; i < dots.length; i++) {
-        dots[i].classList.remove("active");
-    }
+    dots.forEach(dot => dot.classList.remove("active"));
     dots[slideIndex].classList.add("active");
 }
 
