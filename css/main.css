@@ -29,63 +29,68 @@ p {
     max-width: 600px;
     margin: 10px 0;
 }
-
 .header{
     position: relative;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
     height: 30vw;
     min-height: 600px;
     max-height: 700px;
     width: 100%;
-    width: 100%;
     color: ghostwhite;
 
-    background-image: url('../images/sky.jpg');
-    background-size: cover;      
-    background-position: center; 
-    background-repeat: no-repeat; 
-
-    background-image: url('../images/sky.jpg');
+    background-image: url('../images/moon.png');
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat; 
 }
-
+.top-header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(27, 44, 60, 0.55);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
 .info{
     width: 100%;
-    padding: 15% 10% 0 10%;
+    padding: 35% 10% 0 0;
     text-align: left;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     z-index: 2;
 }
-.info h1{
-    font-size: 4rem;
+.mer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+#lyra-tekst{
+    width: 500px;
+    padding: 0;
     text-align: left;
 }
-.sides{
-    flex: 0 0 auto;
-    width: 50%;
-    padding: 20px;
+.info h2{
+    padding: 0;
+    margin-top: 10px;
+    text-align: left;
 }
-.sides .icon{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 40px;
-    height: 40px;
-    margin-left: 15px;
+.top-header, .sides{
+    flex: 0 0 auto;
     padding: 20px;
 }
 .menu{
     background: none; 
     border: none; 
     padding: 0; 
-    cursor: pointer; 
+    width: 80px;
+    height: 80px; 
+    display: flex;
+    justify-content: flex-start;
 }
 .language-selection {
     position: absolute;
@@ -125,145 +130,62 @@ p {
 .shortcuts a:hover {
     text-decoration: underline;
 }
-
-.header{
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    height: 30vw;
-    min-height: 600px;
-    max-height: 700px;
-    width: 100%;
-    color: ghostwhite;
-
-    background-image: url('../images/sky.jpg');
-    background-size: cover;      
-    background-position: center; 
-    background-repeat: no-repeat; 
-}
-.info{
-    width: 100%;
-    padding: 15% 10% 0 10%;
-    text-align: left;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    z-index: 2;
-}
-.info h1{
-    font-size: 4rem;
-    text-align: left;
-    text-align: left;
-}
-.sides{
-    flex: 0 0 auto;
-    width: 50%;
-    padding: 20px;
-}
-.sides .icon{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 40px;
-    height: 40px;
-    margin-left: 15px;
-    padding: 20px;
-}
-
 #externalLinksList {  
     list-style-type: none; 
     padding: 0; 
     cursor: pointer; 
 }
-
 .externLinks li {
     margin: 7px 0; 
     text-align: right; 
 }
-
 .externLinks a {
     text-decoration: none; 
     color: white; 
     transition: color 0.3s; 
 }
-.language-selection a:hover {
-    text-decoration: underline;
-}
-.language-selection span {
-    margin: 0 5px;
-    color: ghostwhite;
-}
-.shortcuts {
-    position: absolute;
-    top: 20px; 
-    right: 200px; 
-    font-size: 1.3rem; 
-    padding: 20px;
-    color: ghostwhite;
-    z-index: 2;
-    z-index: 2;
-}
-.shortcuts a {
-    color: ghostwhite;
-    text-decoration: none;
-    margin-right: 40px;
-}
-.shortcuts a:hover {
-    text-decoration: underline;
-}
-
 .container {
-    width: 900px; /* Increased width */
+    width: auto;
+    max-height: 1000px;
     padding: 40px; /* Keep the padding */
-    background-color: #F1F0EA;
-    border: 1px solid #ccc;
+    background-color: #1B2C3C;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Space between sections */
     min-height: 600px; /* Maintain minimum height */
 }
-
 .top-section {
     display: flex;
-    gap: 20px;
     padding: 20px; /* Added padding for more vertical space */
 }
-
-.left-section {
+.right-section {
     flex: 1;
     text-align: left;
 }
-
-.info-title {
-    font-size: 32px;
+.right-section h1 {
+    font-size: 50px;
     font-weight: bold;
-    color: rgb(29, 26, 76);
-    margin-bottom: 50px;
+    color: #F1F0E9;
+    display: flex;
+    flex-direction: column;
 }
-
 .text-below {
     font-size: 14px;
-    margin-left: 60px;
+    text-align: left;
     color: #333;
 }
-
-.right-section {
+.left-section {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.right-section img {
-    width: 250px;
-    height: 150px;
+.left-section img {
+    width: 700px;
+    height: auto;
     margin-top: 50px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
-
 .center-text {
     flex: 1;
     font-size: 20px;
@@ -272,37 +194,37 @@ p {
     color: #333;
     text-align: center;
 }
-
 /* Bottom section styling */
 .bottom-section {
     display: flex;
     gap: 20px; /* Gap between image and text */
     padding: 20px; /* Added padding for more vertical space */
+    background-color: #F1F0E9;
 }
-
 .bottom-left {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .bottom-left img {
     width: 250px;
     height: 150px;
     margin-top: 50px;
     border-radius: 10px;
 }
-
 .bottom-right {
     flex: 1;
     display: flex;
     align-items: center;
     text-align: left;
 }
-
 .bottom-right p {
     font-size: 14px;
     margin-right: 60px;
     color: #333;
 }
+body, .container, .header {
+    background-color: var(--rich-black);
+}
+

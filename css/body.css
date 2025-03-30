@@ -1,16 +1,14 @@
 .container {
-    width: 90%;
+    width: 100%;
     padding: 40px;
     background-color: #F1F0EA;
-    border: 1px solid #ccc;
     text-align: center;
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     gap: 20px;
-    min-height: 600px;
+    max-height: 1000px;
 }
-
 .top-section {
     display: flex;
     gap: 20px;
