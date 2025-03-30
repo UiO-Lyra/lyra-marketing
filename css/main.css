@@ -176,31 +176,32 @@ p {
     color: #F1F0E9;
     width: 90%;
     line-height: 1.8;
+    margin-left: 60px;
 }
 .knappLesMer {
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     padding: 35px;
 }
 
 #lesMer {
-    display: flex;              /* Use flexbox for positioning */
-    justify-content: center;    /* Center horizontally */
-    align-items: center;        /* Center vertically */
-    padding: 20px 40px;         /* Button padding */
-    font-size: 18px;            /* Text size */
-    background-color: #9a9999; /* Button background color */
-    color: white;               /* Text color */
-    border: none;               /* Remove border */
-    border-radius: 8px;         /* Rounded corners */
-    cursor: pointer;           /* Pointer cursor on hover */
-    transition: background-color 0.3s ease;  /* Hover transition */
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    padding: 20px 40px;         
+    font-size: 18px;            
+    background-color: #9a9999; 
+    color: white;               
+    border: none;               
+    border-radius: 8px;         
+    cursor: pointer;           
+    transition: background-color 0.3s ease;  
     width: 200px;
 }
 
 #lesMer:hover {
-    background-color: #505050;  /* Endrer bakgrunnsfargen når knappen holdes over */
+    background-color: #505050;  
 }
 
 .left-section {
@@ -231,7 +232,6 @@ p {
     display: flex;
     /*flex-direction: column;*/
     /*min-height: 600px;  Maintain minimum height */
-
 }
 
 /* Bottom section styling */
