@@ -3,6 +3,7 @@
     align-items: center;
     padding: 20px 60px;
     background-color: #f1f0E9;
+    height: 250px;
 }
 
 .address {
@@ -61,7 +62,7 @@
 }
 
 .socialIcons a:hover i{
-    color: #646536;
+    color: #F26419;
     transition: 0.5s;
 }
 
@@ -81,12 +82,11 @@
     margin: 10px;
     text-decoration: none;
     font-size: 16px;
-    opacity: 0.7;
     transition: 0.5s;
 }
 
 .footerNav ul li a:hover{
-    opacity: 1;
+    color: #F26419;
 }
 
 .externLinks {
@@ -128,7 +128,7 @@
 }
 
 .externLinks a:hover {
-    color: #1b2c3c; 
+    color: #F26419; 
 }
 
 .footerBottom{

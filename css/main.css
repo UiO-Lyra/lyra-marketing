@@ -3,26 +3,20 @@
 body {
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
-    /*justify-content: center;*/
     height: auto;
     margin: 0;
     font-family: Arial, sans-serif;
 		background-color: var(--rich-black);
 		color: white;
 }
-
 img {
     max-width: 100%;
     height: auto;
-    /*margin: 20px 20px;*/
 }
-
 h1 {
     text-align: center;
     margin: 20px 0;
 }
-
 p {
     text-align: center;
     max-width: 600px;
@@ -140,7 +134,7 @@ p {
 }
 .externLinks a {
     text-decoration: none; 
-    color: white; 
+    color: #1B2C3C; 
     transition: color 0.3s; 
 }
 .container {
@@ -184,14 +178,13 @@ p {
     align-items: center; 
     padding: 35px;
 }
-
 #lesMer {
     display: flex;              
     justify-content: center;    
     align-items: center;        
     padding: 20px 40px;         
     font-size: 18px;            
-    background-color: #9a9999; 
+    background-color: #F26419; 
     color: white;               
     border: none;               
     border-radius: 8px;         
@@ -199,11 +192,9 @@ p {
     transition: background-color 0.3s ease;  
     width: 200px;
 }
-
 #lesMer:hover {
     background-color: #505050;  
 }
-
 .left-section {
     flex: 1;
     display: flex;
@@ -234,15 +225,12 @@ p {
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat; 
-    
 }
-
 .middle-section{
     flex: 1;
     text-align: center; 
     padding: 50px;
 }
-
 .middle-section h1{
     width: 45%;
     font-size: 50px;
@@ -252,7 +240,6 @@ p {
     flex-direction: column;
     margin: 50px;
 }
-
 .text-below2 {
     font-size: 20px;
     text-align: left;
@@ -274,42 +261,10 @@ p {
     gap: 10px; 
     flex-wrap: wrap; 
 }
-
 .sponsorships img {
     width: auto; 
     height: 100%; 
     object-fit: contain; 
-}
-
-
-/*.bottom-section {
-    display: flex;
-    gap: 20px; /* Gap between image and text 
-    padding: 20px;  Added padding for more vertical space 
-    background-color: #F1F0E9;
-}
-.bottom-left {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.bottom-left img {
-    width: 250px;
-    height: 150px;
-    margin-top: 50px;
-    border-radius: 10px;
-}
-.bottom-right {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    text-align: left;
-}
-.bottom-right p {
-    font-size: 14px;
-    margin-right: 60px;
-    color: #333;
 }
 body, .container, .header {
     background-color: var(--rich-black);
