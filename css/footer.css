@@ -1,27 +1,27 @@
-/*.footerContainer{
+.footerContainer{
     display: flex; 
-    justify-content: space-between; 
-    align-items: start;
+    align-items: center;
     padding: 20px 60px;
+    background-color: #f1f0E9;
 }
 
-.adress {
+.address {
     text-align: left; 
-    color: white; 
+    color: #1b2c3c; 
     margin-top: 10px; 
     padding-left: 15px;
 }
 
-.adress h3{
+.address h3{
     text-align: left; 
-    color: white; 
+    color: #1b2c3c; 
     margin-top: 10px;
     padding-left: 15px;
 }
 
-.adress p{
+.address p{
     text-align: left; 
-    color: white; 
+    color: #1b2c3c; 
     margin-top: 10px;
     padding-left: 15px;
 }
@@ -32,23 +32,26 @@
     left: 50%; 
     transform: translateX(-50%);
 }
+.socialSection h3{
+    color: #1b2c3c;
+}
 
 .socialIcons{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
 }
 
 .socialIcons a{
     text-decoration: none;
     padding: 10px;
-    background-color: white;
+    background-color: #1b2c3c; 
     margin: 10px;
     border-radius: 50%;
 }
 
 .socialIcons a{
-    color: #1b2d3cff;
+    color: #f1f0E9;
     opacity: 0.9;
 }
 
@@ -58,7 +61,7 @@
 }
 
 .socialIcons a:hover i{
-    color: white;
+    color: #646536;
     transition: 0.5s;
 }
 
@@ -74,10 +77,10 @@
 }
 
 .footerNav ul li a{
-    color: white;
-    margin: 20px;
+    color: #1b2c3c; 
+    margin: 10px;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 16px;
     opacity: 0.7;
     transition: 0.5s;
 }
@@ -88,10 +91,11 @@
 
 .externLinks {
     text-align: right; 
-    color: white; 
+    color: #1b2c3c;  
     margin-top: 0; 
     padding-right: 0; 
     flex: 1; 
+    color: #1b2c3c;
 }
 
 .externLinks h3 {
@@ -103,6 +107,13 @@
     list-style-type: none; 
     padding: 0; 
     margin: 0; 
+    justify-content: flex-end; 
+    text-align: right;
+    color: #1b2c3c;
+}
+
+#externalLinksList li{  
+    color: #1b2c3c;
 }
 
 .externLinks li {
@@ -112,12 +123,12 @@
 
 .externLinks a {
     text-decoration: none; 
-    color: white; 
+    color: #1b2c3c; 
     transition: color 0.3s; 
 }
 
 .externLinks a:hover {
-    color: #1b2d3cff; 
+    color: #1b2c3c; 
 }
 
 .footerBottom{
@@ -141,4 +152,3 @@
    font-weight: 400;
    margin: 0px 5px;
 }
-*/
