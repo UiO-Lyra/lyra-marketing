@@ -28,31 +28,27 @@
 				</div>
 			</div>
 			<div class="shortcuts">
-				<a href="#omOss">Om oss</a>
-				<a href="#ghostMission">Prosjektet vårt</a>
-				<a href="#">Kontakt oss</a>
+				<a href="#aboutUs" class="aboutUsTitleText"></a>
+				<a href="#ghostMission" class="ourProjectText"></a>
+				<a href="#" class="contactUsText"></a>
 			</div>
 			<div class="language-selection">
-				<a href="#">Norsk</a>
+				<a id="no">Norsk</a>
 				<span>|</span>
-				<a href="#">English</a>
+				<a id="en">English</a>
 			</div>
 		</div>
   </div>
 
-	<div class="container" id="omOss">
+	<div class="container" id="aboutUs">
 		<div class="top-section">
 			<div class="left-section">
 				<img src="images/Gruppebilde.jpg" alt="Placeholder Image">
 			</div>
 			<div class="right-section">
-				<h1>Om oss</h1>
-				<div class="text-below">Lyra er en studentforening ved Universitetet i Oslo som samler studenter fra fysikk, 
-					informatikk, teknologi, romfart og flere andre fagområder. 
-					Vi består av både bachelor- og masterstudenter som ønsker å gi medlemmene 
-					praktisk erfaring med romfartsteknologi – gjennom bygging, utvikling og utforskning i en virkelighetsnær 
-					setting.</div>
-			<div class="knappLesMer"><button id="lesMer">Les mer</button></div>
+				<h1 class="aboutUsTitleText"></h1>
+				<div class="text-below aboutUsText"></div>
+			<div class="knappLesMer"><button id="lesMer" class="readMoreText"></button></div>
 			</div>
 		</div>
 	</div>
@@ -60,13 +56,7 @@
 	<div class="container2" id="ghostMission">
 		<div class="middle-section">
 			<h1>GHOST Mission</h1>
-			<div class="text-below2">
-				Lyra er stolte over å delta i GHOST Mission -  
-				en spennende, internasjonal studentrakett-misjon ledet av Andøya Space og NASA. 
-				Dette prosjektet gir flere studenter sjansen til å være med på å utforske, designe, 
-				bygge og sende egne eksperimenter til grensen for verdensrommet.<br><br>
-				Dette gir verdifull erfaring i romfartsteknologi og en sjanse til å 
-				jobbe med banebrytende forskning i en virkelig romforskningskontekst.
+			<div class="text-below2 ghostMissionText">
 			</div>
 			<br><br>
 			<center><h3>Powered by</h3></center>
@@ -82,18 +72,18 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/script.js"></script>
+	<!--script src="js/script.js"></script-->
 	<footer>
 		<div class="footerContainer">
 			<div class="address"> 
-				<h3>Kontakt oss</h3>
+				<h3 class="contactUsText">Kontakt oss</h3>
 				<p>lyra@terraspace.no</p> 
 				<p>Sem Sælands vei 24, UiO</p>
 				<p>0371 Oslo</p>
 			</div>
 			<div class="socialSection">
 				<br><br>
-				<h3>Følg oss på</h3>
+				<h3 class="followUsText"></h3>
 				<div class="socialIcons">
 					<a href="https://www.instagram.com/lyra.terraspace/."><i class="fa-brands fa-instagram"></i></a>
 					<a href=""><i class="fa-brands fa-facebook"></i></a>
@@ -101,29 +91,30 @@
 				</div>
 				<div class="footerNav">
 					<ul>
-						<li><a href="#omOss">Om oss</a></li>
-						<li><a href="#ghostMission">Prosjektet vårt</a></li>
-						<li><a href="">Kontakt oss</a></li>
+						<li><a href="#aboutUs" class="aboutUsTitleText"></a></li>
+						<li><a href="#ghostMission" class="ourProjectText"></a></li>
+						<li><a href="" class="contactPageLinkText"></a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="externLinks">
-				<h3>Les mer</h3>
+				<h3 class="readMoreText"></h3>
 				<ul id="externalLinksList">
 					<li><a href="https://www.nasa.gov/wallops/stem/ghost/">NASA GHOST Mission </a></li>
 					<li><a href="https://andoyaspace.no/what-we-do/student-opportunities/university-projects/the-ghost-mission/">Andøya GHOST Mission </a></li>
-					<li><a href="https://www.grandchallenge.no/project-mesosphere-lower-thermosphere/">Prosjekt Mesosfære</a></li>
-					<li><a href="https://technology.nasa.gov/patent/GSC-TOPS-225">Ny Antenne for CubeSat</a></li>
+					<li><a href="https://www.grandchallenge.no/project-mesosphere-lower-thermosphere/" class="projectMesosphereText"></a></li>
+					<li><a href="https://technology.nasa.gov/patent/GSC-TOPS-225" class="newAntennaText"></a></li>
 				</ul>
 			</div>
 		</div>
-	</div>				
+	</div>
 	<div class="footerBottom">
 		<span class="designer">Lyra</span><p class="copyright"> &copy;2025</p>
-	</div>       
+	</div>
 	</footer>
 <br>
-	
+
+<script src="js/textInserter.js"></script>
 </body>
 </html>
 

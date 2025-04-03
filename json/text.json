@@ -1,0 +1,38 @@
+{
+  "aboutUsTitle": {
+    "no": "Om oss",
+    "en": "About Us"
+  },
+  "aboutUs": {
+    "no": "Lyra er en studentforening ved Universitetet i Oslo som samler studenter fra fysikk, informatikk, teknologi, romfart og flere andre fagområder. Vi består av både bachelor- og masterstudenter som ønsker å gi medlemmene praktisk erfaring med romfartsteknologi – gjennom bygging, utvikling og utforskning i en virkelighetsnær setting.",
+    "en": "Lyra is a student association at the University of Oslo that is collecting students from physics, informatics, technology, space travel and others. We are both bachelor and master studens who wants to give our participants practical experience with aerospace technology - through buiding, developing, and exploring in a realistic setting."
+  },
+  "readMore": {
+    "no": "Les mer",
+    "en": "Read more"
+  },
+  "ghostMission": {
+		"no": "Lyra er stolte over å delta i GHOST Mission - en spennende, internasjonal studentrakett-misjon ledet av Andøya Space og NASA. Dette prosjektet gir flere studenter sjansen til å være med på å utforske, designe, bygge og sende egne eksperimenter til grensen for verdensrommet.<br><br> Dette gir verdifull erfaring i romfartsteknologi og en sjanse til å jobbe med banebrytende forskning i en virkelig romforskningskontekst.",
+		"en": "Lyra is proud to be participating in the GHOST Mission - an exciting, international student rocket mission lead by Andøya Space and NASA. This project gives more students the chance to explore, design, build and send their own experiments to the edge of space.<br><br> This gives valuable experience with aerospace technology and a chance to work with groundbreaking research in a real space exploration context."
+  },
+  "ourProject": {
+    "no": "Prosjektet vårt",
+    "en": "Our project"
+  },
+  "contactUs": {
+    "no": "Kontakt oss",
+    "en": "Contact us"
+  },
+  "followUs": {
+    "no": "Følg oss på",
+    "en": "Follow us at"
+  },
+  "projectMesosphere": {
+    "no": "Prosjekt Mesosfære",
+    "en": "Project Mesosphere"
+  },
+  "newAntenna": {
+    "no": "Ny Antenne for CubeSat",
+    "en": "New Antenna for CubeSat"
+  }
+}
