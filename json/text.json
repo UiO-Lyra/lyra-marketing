@@ -12,8 +12,10 @@
     "en": "Read more"
   },
   "ghostMission": {
-		"no": "Lyra er stolte over å delta i GHOST Mission - en spennende, internasjonal studentrakett-misjon ledet av Andøya Space og NASA. Dette prosjektet gir flere studenter sjansen til å være med på å utforske, designe, bygge og sende egne eksperimenter til grensen for verdensrommet.<br><br> Dette gir verdifull erfaring i romfartsteknologi og en sjanse til å jobbe med banebrytende forskning i en virkelig romforskningskontekst.",
-		"en": "Lyra is proud to be participating in the GHOST Mission - an exciting, international student rocket mission lead by Andøya Space and NASA. This project gives more students the chance to explore, design, build and send their own experiments to the edge of space.<br><br> This gives valuable experience with aerospace technology and a chance to work with groundbreaking research in a real space exploration context."
+    "no": "Sammen med en rekke andre studenter og universiteter deltar Lyra ved UiO i samarbeid med studenter fra OsloMet og NMBU i GHOST Mission, som er organisert av Andøya Space Sub-Orbital og NASAs Wallops Flight Facility. Mer info snart",
+    "en": "Together with a number of other students and universities, Lyra at UiO is participating in collaboration with students from OsloMet and NMBU in the GHOST Mission, which is organized by Andøya Space Sub-Orbital and NASA's Wallops Flight Facility. More info soon",
+		"no_": "Lyra er stolte over å delta i GHOST Mission - en spennende, internasjonal studentrakett-misjon ledet av Andøya Space og NASA. Dette prosjektet gir flere studenter sjansen til å være med på å utforske, designe, bygge og sende egne eksperimenter til grensen for verdensrommet.<br><br> Dette gir verdifull erfaring i romfartsteknologi og en sjanse til å jobbe med banebrytende forskning i en virkelig romforskningskontekst.",
+		"en_": "Lyra is proud to be participating in the GHOST Mission - an exciting, international student rocket mission lead by Andøya Space and NASA. This project gives more students the chance to explore, design, build and send their own experiments to the edge of space.<br><br> This gives valuable experience with aerospace technology and a chance to work with groundbreaking research in a real space exploration context."
   },
   "ourProject": {
     "no": "Prosjektet vårt",
