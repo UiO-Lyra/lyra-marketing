@@ -1,0 +1,10 @@
+# Cleanup
+* There are some classes that should be ids. i.e. elements that are not supposed to repeat.
+* Sponsor background should be cleanedup.
+* Logo looks messy in upper left corner.
+
+# misc
+* website should branch to other pages
+ * gather intended branching structure
+* Each team uses their own github to organize their work. This should really be multiple repos under the same org.
+ * The org could be "Lyra" for example, then the repos would be lyra-{teamname}.
