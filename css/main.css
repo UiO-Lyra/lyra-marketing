@@ -37,9 +37,9 @@ p {
     color: ghostwhite;
 
     background-image: url('../images/moon.png');
-    background-size: cover;      
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .top-header{
     width: 100%;
@@ -60,7 +60,7 @@ p {
 .mer-info{
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
 }
 #lyra-tekst{
     width: 500px;
@@ -77,18 +77,18 @@ p {
     padding: 20px;
 }
 .menu{
-    background: none; 
-    border: none; 
-    padding: 0; 
+    background: none;
+    border: none;
+    padding: 0;
     width: 80px;
-    height: 80px; 
+    height: 80px;
     display: flex;
     justify-content: flex-start;
 }
 .language-selection {
     position: absolute;
     top: 20px;
-    right: 20px; 
+    right: 20px;
     font-size: 1rem;
     padding: 22px;
     color: ghostwhite;
@@ -108,9 +108,9 @@ p {
 }
 .shortcuts {
     position: absolute;
-    top: 20px; 
-    right: 200px; 
-    font-size: 1.3rem; 
+    top: 20px;
+    right: 200px;
+    font-size: 1.3rem;
     padding: 20px;
     color: ghostwhite;
     z-index: 2;
@@ -123,19 +123,19 @@ p {
 .shortcuts a:hover {
     text-decoration: underline;
 }
-#externalLinksList {  
-    list-style-type: none; 
-    padding: 0; 
-    cursor: pointer; 
+#externalLinksList {
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
 }
 .externLinks li {
-    margin: 7px 0; 
-    text-align: right; 
+    margin: 7px 0;
+    text-align: right;
 }
 .externLinks a {
-    text-decoration: none; 
-    color: #1B2C3C; 
-    transition: color 0.3s; 
+    text-decoration: none;
+    color: #1B2C3C;
+    transition: color 0.3s;
 }
 .container {
     width: auto;
@@ -179,21 +179,21 @@ p {
     padding: 35px;
 }
 #lesMer {
-    display: flex;              
-    justify-content: center;    
-    align-items: center;        
-    padding: 20px 40px;         
-    font-size: 18px;            
-    background-color: #F26419; 
-    color: white;               
-    border: none;               
-    border-radius: 8px;         
-    cursor: pointer;           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: #F26419;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
     transition: background-color 0.3s ease;  
     width: 200px;
 }
 #lesMer:hover {
-    background-color: #505050;  
+    background-color: #505050;
 }
 .left-section {
     flex: 1;
@@ -222,13 +222,13 @@ p {
     color: ghostwhite;
 
     background-image: url('../images/Sortledd.png');
-    background-size: cover;      
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .middle-section{
     flex: 1;
-    text-align: center; 
+    text-align: center;
     padding: 50px;
 }
 .middle-section h1{
@@ -250,21 +250,22 @@ p {
 }
 .sponsorships {
     max-width: 100%;
-    background: none; 
-    border: none; 
-    padding: 0; 
-    width: 100%; 
-    height: 80px; 
+    background-color: white;
+    border: none;
+    padding: 0;
+    width: 100%;
+    height: 80px;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    gap: 10px; 
-    flex-wrap: wrap; 
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 .sponsorships img {
-    width: auto; 
-    height: 100%; 
-    object-fit: contain; 
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    background-color: gray;
 }
 body, .container, .header {
     background-color: var(--rich-black);
